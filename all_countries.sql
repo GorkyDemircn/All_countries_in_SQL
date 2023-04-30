@@ -17,7 +17,7 @@ CREATE PROCEDURE SP_Countries
 )
 AS
 INSERT INTO Countries 
-	 VALUES(@CountryName)
+     VALUES(@CountryName)
 EXEC SP_Countries @CountryName = N'Afghanistan'
 GO
 EXEC SP_Countries @CountryName = N'Albania'
